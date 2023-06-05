@@ -297,13 +297,25 @@ let index = 13
 // console.log('arr[' + (80 - grade) + ']')
 
 
-let firstName = "John"
-let greeting = 'Hey'
+
+
+// let firstName = "John"
+// let greeting = 'Hey'
+
+
 
 // console.log(greeting + ' ' + firstName)
 // console.log(`${greeting} ${firstName}`)
 
-index = 12
+
+
+let i = 0;
+
+// console.log('index[' + i + '][' + arr[i] + ']')
+
+
+
+// console.log(`index[${i}][${arr[i]}]`)
 
 
 
@@ -312,20 +324,40 @@ index = 12
 
 
 
-let a = ['Tope', "Paul", "Jimi", "John", 'Mary']
 
 
-for (i = 0; i < 5; i++) {
-    if (i % 2 == 0) {
-        console.log(a[i])
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+arr = [3, false, 'Tope', 1, 2, 3, 'Jimi']
+
+for (i = 0; i < 7; i++) {
+    console.log(`index ${i} => ${arr[i]}`)
+    console.log('index ' + i + ' => ' + arr[i])
+    console.log(' ')
 }
 
-console.log(' ')
 
-for (i = 0; i < 5; i=i+2) {
-    console.log(a[i])
-}
+
+
+
+
+
+
+
 
 
 
