@@ -304,22 +304,18 @@ let index = 13
 
 
 
-// console.log(greeting + ' ' + firstName)
-// console.log(`${greeting} ${firstName}`)
+// // console.log(greeting + ' ' + firstName)
+// // console.log(`${greeting} ${firstName}`)
 
 
 
-let i = 0;
+// let i = 0;
 
-// console.log('index[' + i + '][' + arr[i] + ']')
-
-
-
-// console.log(`index[${i}][${arr[i]}]`)
+// // console.log('index[' + i + '][' + arr[i] + ']')
 
 
 
-
+// // console.log(`index[${i}][${arr[i]}]`)
 
 
 
@@ -337,18 +333,107 @@ let i = 0;
 
 
 
+// for (z = 0; z < 31; z++) {
+//     if (z == 0) {
+//         console.log(`${z + 1}st position`)
+//     }
+//     else if (z == 1) {
+//         console.log(`${z + 1}nd position`)
+//     }
+//     else if (z == 2) {
+//         console.log(`${z + 1}rd position`)
+//     }
+//     else {
+//         console.log(`${z + 1}th position`)
+//     }
+// }
+
+
+// let age = 19
+
+// let isOldEnough = 19 >= 18
+
+// console.log(isOldEnough)
 
 
 
 
 
-arr = [3, false, 'Tope', 1, 2, 3, 'Jimi']
 
-for (i = 0; i < 7; i++) {
-    console.log(`index ${i} => ${arr[i]}`)
-    console.log('index ' + i + ' => ' + arr[i])
-    console.log(' ')
-}
+
+
+
+
+
+// if (i.toString() == 1) {
+
+// }
+
+arr = [1, 2, 3, 4]
+
+total = 0
+num = 0
+
+
+console.log(`Adding 1 to total`)
+console.log(`Adding 2 to total`)
+console.log(`Adding 3 to total`)
+console.log(`Adding 4 to total`)
+console.log('The mean/avg num in the array is 2.5')
+
+
+
+const users = [
+    {
+        firstName: 'Tope',
+        age: 12,
+        gender: 'M',
+    },
+    {
+        firstName: 'Paul',
+        age: 13,
+        gender: 'M',
+    },
+    {
+        firstName: 'Melissa',
+        age: 12,
+        gender: 'F',
+    },
+    {
+        firstName: 'Precious',
+        age: 11,
+        gender: 'M',
+    },
+    {
+        firstName: 'Veronica',
+        age: 12,
+        gender: 'F',
+    },
+    {
+        firstName: 'Sophie',
+        age: 14,
+        gender: 'F',
+    },
+]
+
+// loop through the array
+// while looping, print
+
+// Tope is 12 years old, and he is a boy
+// Veronica is 12 years old, and she is a girl
+// Precious is 11 years old, and he is a boy
+
+
+//outside of the loop
+
+//The average age of users is: 13
+
+//There are more boys than girls
+//There are more girls than boys
+
+
+
+
 
 
 
