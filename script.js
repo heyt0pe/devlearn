@@ -375,15 +375,15 @@ total = 0
 num = 0
 
 
-console.log(`Adding 1 to total`)
-console.log(`Adding 2 to total`)
-console.log(`Adding 3 to total`)
-console.log(`Adding 4 to total`)
-console.log('The mean/avg num in the array is 2.5')
+// console.log(`Adding 1 to total`)
+// console.log(`Adding 2 to total`)
+// console.log(`Adding 3 to total`)
+// console.log(`Adding 4 to total`)
+// console.log('The mean/avg num in the array is 2.5')
 
 
 
-const users = [
+users = [
     {
         firstName: 'Tope',
         age: 12,
@@ -416,6 +416,10 @@ const users = [
     },
 ]
 
+for (let i = 0; i < 6; i++) {
+    console.log(`${JSON.stringify(users[i])} == 6`)
+}
+
 // loop through the array
 // while looping, print
 
@@ -430,6 +434,54 @@ const users = [
 
 //There are more boys than girls
 //There are more girls than boys
+
+
+const users = [
+    {
+        firstName: 'Tope',
+        age: 12,
+        isAlive: false,
+    },
+    {
+        firstName: 'Paul',
+        age: 13,
+        isAlive: true,
+    },
+    {
+        firstName: 'Melissa',
+        age: 12,
+        isAlive: true,
+    }, {
+        firstName: 'Elvis',
+        age: 11,
+        isAlive: false,
+    },
+    {
+        firstName: 'Precious',
+        age: 11,
+        isAlive: true,
+    },
+    {
+        firstName: 'Veronica',
+        age: 12,
+        isAlive: false,
+    },
+    {
+        firstName: 'Sophie',
+        age: 14,
+        isAlive: true,
+    },
+]
+
+
+// Tope is 12 years old, and he is dead
+// Veronica is 12 years old, and she is alive
+
+//More people are alive than have died
+//More people are dead than are alive
+
+//On avg, people died at 12.3 years old
+//The people alive have an avg age of 11.2
 
 
 
