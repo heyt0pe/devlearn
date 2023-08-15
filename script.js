@@ -32,8 +32,6 @@
 // // // let str5 = str1 + ', ' + str3 + ' ' + str4
 // // // // console.log(str5)
 
-
-
 // // // let str6 = `str1, str3 str4`;
 // // // console.log(str6)
 
@@ -46,7 +44,6 @@
 // // //     console.log(`You're too young, come back in ${18 - age} years time`)
 // // // }
 
-
 // // // let time = 10;
 
 // // // if (time < 12) {
@@ -56,7 +53,6 @@
 // // // } else {
 // // //     console.log('Good evening.It is x hours till midnight');
 // // // }
-
 
 // // // `
 // // // Percentage >= 90% : Grade A
@@ -73,15 +69,7 @@
 // // //     "Your grade is A. You are 67 pointsa above the failing grade"
 // // // );
 
-
-
-
-
-
-
-
 // // let num = 621;
-
 
 // // if (num % 2 == 0) {
 // //     if (num < 100) {
@@ -105,11 +93,6 @@
 // console.log('Good morning, it is ${12-t} hours till afternoon')
 // console.log(`Good morning, it is ${12 - t} hours till afternoon`)
 
-
-
-
-
-
 // // age = 12
 // // gender = 'male'
 
@@ -121,23 +104,16 @@
 // // male - wine
 // // fenale - beer
 
-
 // console.log('you are welcome, you can have a fanta')
 // console.log('you are welcome, you can have a coke')
 
-
-
-
-
 // // Hello you are alloweed to take alcohol. Ple`se take a bottle of wine
 
-
-
-// // 
+// //
 // // isAlive = true/false
 // // dob = 1995
-// // 
-// // 
+// //
+// //
 // // if alive
 // // < 13 - you are alive. child
 // // 13 - 19 you are alive. teenager
@@ -146,7 +122,6 @@
 // // < 13 - you are dead. child
 // // 13 - 19 you are dead. teenager
 // // >19 - you are dead. adult
-
 
 // // index 0 - name
 // // index 1 - age
@@ -168,7 +143,7 @@
 //     children: [
 //         {
 //             firstName: 'Tope',
-//             age: 10,
+//             dob: 2000,
 //             schools: ['KJA', 'KLC'],
 //         },
 //         {
@@ -199,35 +174,28 @@
 
 // console.log(arr[2][1].data[2].schools[1])
 
-
-
-
 // let arr = [
-//     3, 
-//     '2', 
-//     { 
-//         "age": 14, 
-//         "car": "Toyota" 
-//     }, 
+//     3,
+//     '2',
+//     {
+//         "age": 14,
+//         "car": "Toyota"
+//     },
 //     [
-//         4, 
-//         7, 
+//         4,
+//         7,
 //         [
-//             "first", 
-//             "second", 
-//             { 
-//                 "position": "third", 
-//                 "class": "JSS1C", 
+//             "first",
+//             "second",
+//             {
+//                 "position": "third",
+//                 "class": "JSS1C",
 //             },
 //         ],
 //     ],
 // ]
 
-
 // console.log(typeof(arr[2].age))
-
-
-
 
 // let people = ['Tope', 'Paul', "Tobi", "Rita", "Elvis"]
 
@@ -237,101 +205,35 @@
 // console.log(people[3])
 // console.log(people[4])
 
-
-
-
-
-
-
-
-
-
-
 // let u = 1;
-
 
 // for(i = 0; i < 10; i+2){
 //     console.log(i)
 // }
 
-
-
-
-
-
 // console.log('Hello Tope')
-
-
-
-
 
 // let index = 13
 
-
-
-
-
-
-
-
-
-
 // console.log(`arr[${index}]`)
 
-
-
-
-
-
 // console.log('arr[x]')
-
-
-
-
-
-
-
 
 // let grade = 79
 
 // console.log('arr[' + (80 - grade) + ']')
 
-
-
-
 // let firstName = "John"
 // let greeting = 'Hey'
 
-
-
 // // console.log(greeting + ' ' + firstName)
 // // console.log(`${greeting} ${firstName}`)
-
-
 
 // let i = 0;
 
 // // console.log('index[' + i + '][' + arr[i] + ']')
 
-
-
 // // console.log(`index[${i}][${arr[i]}]`)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // for (z = 0; z < 31; z++) {
 //     if (z == 0) {
@@ -348,22 +250,11 @@
 //     }
 // }
 
-
 // let age = 19
 
 // let isOldEnough = 19 >= 18
 
 // console.log(isOldEnough)
-
-
-
-
-
-
-
-
-
-
 
 // if (i.toString() == 1) {
 
@@ -374,44 +265,41 @@
 // total = 0
 // num = 0
 
-
 // // console.log(`Adding 1 to total`)
 // // console.log(`Adding 2 to total`)
 // // console.log(`Adding 3 to total`)
 // // console.log(`Adding 4 to total`)
 // // console.log('The mean/avg num in the array is 2.5')
 
-
-
 // users = [
 //     {
 //         firstName: 'Tope',
-//         age: 12,
+//         dob: 2002,
 //         gender: 'M',
 //     },
 //     {
 //         firstName: 'Paul',
-//         age: 13,
+//         dob: 2003,
 //         gender: 'M',
 //     },
 //     {
 //         firstName: 'Melissa',
-//         age: 12,
+//         dob: 2002,
 //         gender: 'F',
 //     },
 //     {
 //         firstName: 'Precious',
-//         age: 11,
+//         dob: 2001,
 //         gender: 'M',
 //     },
 //     {
 //         firstName: 'Veronica',
-//         age: 12,
+//         dob: 2002,
 //         gender: 'F',
 //     },
 //     {
 //         firstName: 'Sophie',
-//         age: 14,
+//         dob: 2004,
 //         gender: 'F',
 //     },
 // ]
@@ -427,7 +315,6 @@
 // Veronica is 12 years old, and she is a girl
 // Precious is 11 years old, and he is a boy
 
-
 //outside of the loop
 
 //The average age of users is: 13
@@ -435,64 +322,73 @@
 //There are more boys than girls
 //There are more girls than boys
 
+const students = [
+  {
+    firstName: "Tope",
+    dob: 2002,
+  },
+  {
+    firstName: "Paul",
+    dob: 2003,
+  },
+  {
+    firstName: "Melissa",
+    dob: 2002,
+  },
+  {
+    firstName: "Elvis",
+    dob: 2001,
+  },
+  {
+    firstName: "Precious",
+    dob: 2001,
+  },
+  {
+    firstName: "Veronica",
+    dob: 2002,
+  },
+  {
+    firstName: "Sophie",
+    dob: 2004,
+  },
 
-// const users = [
-//     {
-//         firstName: 'Tope',
-//         age: 12,
-//         isAlive: false,
-//     },
-//     {
-//         firstName: 'Paul',
-//         age: 13,
-//         isAlive: true,
-//     },
-//     {
-//         firstName: 'Melissa',
-//         age: 12,
-//         isAlive: true,
-//     }, {
-//         firstName: 'Elvis',
-//         age: 11,
-//         isAlive: false,
-//     },
-//     {
-//         firstName: 'Precious',
-//         age: 11,
-//         isAlive: true,
-//     },
-//     {
-//         firstName: 'Veronica',
-//         age: 12,
-//         isAlive: false,
-//     },
-//     {
-//         firstName: 'Sophie',
-//         age: 14,
-//         isAlive: true,
-//     },
-// ]
+];
 
+function calculateAge(dateOfBirth) {
+  const currentYear = new Date().getFullYear();
+  return currentYear - dateOfBirth;
+}
 
-// Tope is 12 years old, and he is dead
-// Veronica is 12 years old, and she is alive
+function calculatePosition(position) {
+  if (position == 11 || position == 12 || position == 13) {
+    return `${position}th`;
+  }
 
-//More people are alive than have died
-//More people are dead than are alive
+  const strPosition = position.toString();
+  const lastChar = strPosition[strPosition.length - 1];
 
-//On avg, people died at 12.3 years old
-//The people alive have an avg age of 11.2
-
-
-
-
-
-
-
-
-
+  if (lastChar == "1") {
+    return `${position}st`;
+  } else if (lastChar == "2") {
+    return `${position}nd`;
+  } else if (lastChar == "3") {
+    return `${position}rd`;
+  }
+  return `${position}th`;
+}
 
 
+for (var i = 0; i < students.length; i++) {
+  console.log(
+    `${students[i].firstName} is ${calculateAge(
+      students[i].dob
+    )} years old and was ${calculatePosition(i + 1)} position`
+  );
+}
+
+for(const student of students){
+  console.log(student.dob)
+}
 
 
 
@@ -503,3 +399,6 @@
 
 
 
+console.log("%c ", "margin: 3rem;");
+
+//Sophie is [x] years old and was 11th position
