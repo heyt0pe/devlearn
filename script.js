@@ -179,23 +179,23 @@
 //     ]
 // }
 
-let arr = [
-    'first',
-    2,
-    [
-        false,
-        {
-            key: 'value',
-            data: [
-                67,
-                78,
-                {
-                    schools: ['test', 'lemon'],
-                },
-            ],
-        },
-    ]
-]
+// let arr = [
+//     'first',
+//     2,
+//     [
+//         false,
+//         {
+//             key: 'value',
+//             data: [
+//                 67,
+//                 78,
+//                 {
+//                     schools: ['test', 'lemon'],
+//                 },
+//             ],
+//         },
+//     ]
+// ]
 
 // console.log(arr[2][1].data[2].schools[1])
 
@@ -265,7 +265,7 @@ let arr = [
 
 
 
-let index = 13
+// let index = 13
 
 
 
@@ -369,56 +369,56 @@ let index = 13
 
 // }
 
-arr = [1, 2, 3, 4]
+// arr = [1, 2, 3, 4]
 
-total = 0
-num = 0
-
-
-// console.log(`Adding 1 to total`)
-// console.log(`Adding 2 to total`)
-// console.log(`Adding 3 to total`)
-// console.log(`Adding 4 to total`)
-// console.log('The mean/avg num in the array is 2.5')
+// total = 0
+// num = 0
 
 
+// // console.log(`Adding 1 to total`)
+// // console.log(`Adding 2 to total`)
+// // console.log(`Adding 3 to total`)
+// // console.log(`Adding 4 to total`)
+// // console.log('The mean/avg num in the array is 2.5')
 
-users = [
-    {
-        firstName: 'Tope',
-        age: 12,
-        gender: 'M',
-    },
-    {
-        firstName: 'Paul',
-        age: 13,
-        gender: 'M',
-    },
-    {
-        firstName: 'Melissa',
-        age: 12,
-        gender: 'F',
-    },
-    {
-        firstName: 'Precious',
-        age: 11,
-        gender: 'M',
-    },
-    {
-        firstName: 'Veronica',
-        age: 12,
-        gender: 'F',
-    },
-    {
-        firstName: 'Sophie',
-        age: 14,
-        gender: 'F',
-    },
-]
 
-for (let i = 0; i < 6; i++) {
-    console.log(`${JSON.stringify(users[i])} == 6`)
-}
+
+// users = [
+//     {
+//         firstName: 'Tope',
+//         age: 12,
+//         gender: 'M',
+//     },
+//     {
+//         firstName: 'Paul',
+//         age: 13,
+//         gender: 'M',
+//     },
+//     {
+//         firstName: 'Melissa',
+//         age: 12,
+//         gender: 'F',
+//     },
+//     {
+//         firstName: 'Precious',
+//         age: 11,
+//         gender: 'M',
+//     },
+//     {
+//         firstName: 'Veronica',
+//         age: 12,
+//         gender: 'F',
+//     },
+//     {
+//         firstName: 'Sophie',
+//         age: 14,
+//         gender: 'F',
+//     },
+// ]
+
+// for (let i = 0; i < 6; i++) {
+//     console.log(`${JSON.stringify(users[i])} == 6`)
+// }
 
 // loop through the array
 // while looping, print
@@ -436,42 +436,42 @@ for (let i = 0; i < 6; i++) {
 //There are more girls than boys
 
 
-const users = [
-    {
-        firstName: 'Tope',
-        age: 12,
-        isAlive: false,
-    },
-    {
-        firstName: 'Paul',
-        age: 13,
-        isAlive: true,
-    },
-    {
-        firstName: 'Melissa',
-        age: 12,
-        isAlive: true,
-    }, {
-        firstName: 'Elvis',
-        age: 11,
-        isAlive: false,
-    },
-    {
-        firstName: 'Precious',
-        age: 11,
-        isAlive: true,
-    },
-    {
-        firstName: 'Veronica',
-        age: 12,
-        isAlive: false,
-    },
-    {
-        firstName: 'Sophie',
-        age: 14,
-        isAlive: true,
-    },
-]
+// const users = [
+//     {
+//         firstName: 'Tope',
+//         age: 12,
+//         isAlive: false,
+//     },
+//     {
+//         firstName: 'Paul',
+//         age: 13,
+//         isAlive: true,
+//     },
+//     {
+//         firstName: 'Melissa',
+//         age: 12,
+//         isAlive: true,
+//     }, {
+//         firstName: 'Elvis',
+//         age: 11,
+//         isAlive: false,
+//     },
+//     {
+//         firstName: 'Precious',
+//         age: 11,
+//         isAlive: true,
+//     },
+//     {
+//         firstName: 'Veronica',
+//         age: 12,
+//         isAlive: false,
+//     },
+//     {
+//         firstName: 'Sophie',
+//         age: 14,
+//         isAlive: true,
+//     },
+// ]
 
 
 // Tope is 12 years old, and he is dead
