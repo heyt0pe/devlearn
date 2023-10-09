@@ -17,9 +17,27 @@
     <h1 class='header' id="main-header">First Header</h1>
     <h1 class='header'>Second Header</h1>
     <h1>Last Header</h1>
+    
+    <style>
+        /* #main-header{
+            color: green;
+            border: blue double 3px;
+            background: pink;
+            border-color: orangered;
+            border-style: dashed;
+            border-width: 5px;
+            border-top-right-radius: 20px;
+        } */
+    </style>
+
 
     <script>
-
+        const mainHeader = document.getElementById('main-header');
+        mainHeader.style.color = 'green';
+        mainHeader.style.border = '3px dashed orangered';
+        mainHeader.style.background = 'pink';
+        mainHeader.style.borderTopRightRadius = '20px';
+        mainHeader.style.borderBottomWidth = '10px';
     </script>
 
 </body>
