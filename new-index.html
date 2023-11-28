@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 onclick="triggerButtonClick()">Welcome!</h1>
+
+    <label for="first-name">What is your first name</label>
+    <input type="text" id="first-name">
+
+    <hr/>
+
+    <div>
+        <button onclick="triggerButtonClick()">Login!</button>
+
+        <button id="primary-button">Click Me, Part 2!</button>
+    </div>
+
+
+</body>
+
+<script>
+
+    const firstNameInput = document.querySelector('#first-name');
+
+    function triggerButtonClick() {
+        const userFirstName = firstNameInput.value;
+        if(userFirstName.length < 1){
+            console.error('Please input a name');
+        }else{
+            console.log(`Hello there, ${firstNameInput.value}`)
+        }
+    }
+
+    const button = document.getElementById('primary-button');
+    button.addEventListener('click', function () {
+        const currentTime = new Date();
+        console.log('second button was clicked at ' + currentTime.toLocaleTimeString());
+    })
+
+</script>
+
+<style>
+    h1 {
+        cursor: pointer;
+    }
+</style>
+
+</html>

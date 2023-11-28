@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <div class="container">
+        <h1>Welcome</h1>
+        <div>
+            <label>Email Address</label>
+            <input type="email" name="">
+        </div>
+        <div>
+            <label>Password</label>
+            <input type="password" name="">
+        </div>
+        <button>SIGN IN</button>
+    </div>
+
+
+    <script>
+
+        const lightPink = '#f9e3e3';
+        const darkPink = '#EF7A7A';
+
+        const body = document.querySelector('body');
+        body.style.background = lightPink;
+
+        document.querySelector('div.container').style.background = 'white';
+        document.querySelector('div.container').style.padding = '20px';
+        document.querySelector('div.container').style.borderRadius = '8px';
+
+        const allLabels = document.querySelectorAll('label')
+
+        for(let i = 0; i < allLabels.length; i++){
+            allLabels[i].style.color = 'red';
+        }
+
+
+    </script>
+
+
+</body>
+
+
+<style>
+    /* * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: #f9e3e3;
+    }
+
+    div {
+        margin: 10px 0;
+    }
+
+    div.container {
+        padding: 20px;
+        background: white;
+        border-radius: 8px;
+        margin: 50px 20px;
+    }
+
+    label {
+        color: 
+    }
+
+    button {
+        background: #EF7A7A;
+        border: none;
+        padding: 10px 25px;
+    }
+
+    input {
+        padding: 5px 20px;
+    } */
+</style>
+
+
+
+<!-- <script src="script2.js"></script> -->
+
+</html>

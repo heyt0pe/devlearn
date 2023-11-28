@@ -21,8 +21,9 @@
         <label for="">Password</label>
         <input type="password" />
       </div>
-      <button>SIGN UP</button>
+      
     </form>
+    <button onclick="trigger()">SIGN UP</button>
   </body>
 
   <!-- <style>
@@ -83,6 +84,12 @@
   </style> -->
 
   <script>
+
+    function trigger(){
+      console.log('I was clicked');
+    }
+
+
     const body = document.querySelector("body");
     const form = document.querySelector("form");
     const h1 = document.querySelector("h1");
@@ -150,5 +157,6 @@
         input.style.height = "40px";
       }
     }, 6500);
+    
   </script>
 </html>
