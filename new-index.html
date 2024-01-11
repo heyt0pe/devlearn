@@ -8,18 +8,16 @@
 </head>
 
 <body>
-    <h1 onclick="triggerButtonClick()">Welcome!</h1>
+    <h1>Welcome!</h1>
 
     <label for="first-name">What is your first name</label>
     <input type="text" id="first-name">
 
-    <hr/>
+    <p id="error-text">Error text</p>
 
-    <div>
-        <button onclick="triggerButtonClick()">Login!</button>
+    <hr />
 
-        <button id="primary-button">Click Me, Part 2!</button>
-    </div>
+    <button onclick="submitForm()">Login!</button>
 
 
 </body>
@@ -28,26 +26,29 @@
 
     const firstNameInput = document.querySelector('#first-name');
 
-    function triggerButtonClick() {
+    const errorElement = document.getElementById('error-text');
+
+    function submitForm() {
         const userFirstName = firstNameInput.value;
-        if(userFirstName.length < 1){
-            console.error('Please input a name');
-        }else{
-            console.log(`Hello there, ${firstNameInput.value}`)
+        if (userFirstName.length < 1) {
+            errorElement.innerText = 'Please enter your first name';
+            errorElement.style.display = 'block';
+            errorElement.style.background = 'red';
+        } else {
+            errorElement.innerText = `Hello there, ${firstNameInput.value}`;
+            errorElement.style.display = 'block';
+            errorElement.style.background = 'green';
         }
     }
-
-    const button = document.getElementById('primary-button');
-    button.addEventListener('click', function () {
-        const currentTime = new Date();
-        console.log('second button was clicked at ' + currentTime.toLocaleTimeString());
-    })
 
 </script>
 
 <style>
-    h1 {
-        cursor: pointer;
+    p#error-text {
+        background: red;
+        padding: 5px;
+        color: white;
+        display: none;
     }
 </style>
 
