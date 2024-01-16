@@ -10,6 +10,83 @@
 <body>
     <h1>Welcome!</h1>
 
+    <label for="first-name">Enter Temperature</label>
+    <input type="text" id="temp">
+    <div>
+        <input type="checkbox" id="f-to-c" checked="true">
+        <label for="f-to-c">Convert F -> C</label>
+    </div>
+
+    <p id="error-text">Error text</p>
+
+    <hr />
+
+    <button onclick="convert()">Convert!</button>
+
+
+</body>
+
+<script>
+
+    const temp = document.getElementById('temp');
+
+    const toggle = document.getElementById('f-to-c')
+
+    const errorElement = document.getElementById('error-text');
+
+    function convertFtoC(f) {
+        return Math.round((f - 32) * (5 / 9));
+    }
+
+    function convertCtoF(c) {
+        return Math.round((c * 9/5) + 32);
+    }
+
+    function convert() {
+        const temperature = temp.value;
+        if (temperature.length < 1) {
+            errorElement.innerText = 'Please enter a temperature';
+            errorElement.style.display = 'block';
+            errorElement.style.background = 'red';
+        } else {
+            if(toggle.checked) {
+                errorElement.innerText = `${temperature}F to Celcius is ${convertFtoC(temperature)}`;
+            }else{
+                errorElement.innerText = `${temperature}C to Farenheit is ${convertCtoF(temperature)}`;
+            }
+            errorElement.style.display = 'block';
+            errorElement.style.background = 'green';
+        }
+    }
+
+</script>
+
+<style>
+    p#error-text {
+        background: red;
+        padding: 5px;
+        color: white;
+        display: none;
+    }
+</style>
+
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Welcome!</h1>
+
     <label for="first-name">What is your first name</label>
     <input type="text" id="first-name">
 
@@ -52,4 +129,83 @@
     }
 </style>
 
-</html>
+</html> -->
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    #users {
+        display: flex;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+
+    .item {
+        width: 120px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        background: #e1e1e1;
+    }
+</style>
+
+<body>
+    <h1>Users</h1>
+
+    <div id="users">
+
+    </div>
+</body>
+
+<script>
+
+    const users = [
+        { 'firstName': 'Tope', age: 10, },
+        { 'firstName': 'Tobi', age: 18, },
+        { 'firstName': 'Elvis', age: 12, },
+        { 'firstName': 'Paul', age: 14, },
+        { 'firstName': 'Tega', age: 20, },
+        { 'firstName': 'Tope', age: 10, },
+        { 'firstName': 'Tobi', age: 18, },
+        { 'firstName': 'Elvis', age: 12, },
+        { 'firstName': 'Paul', age: 14, },
+        { 'firstName': 'Tega', age: 20, },
+    ]
+
+    const usersDiv = document.getElementById('users')
+
+    for (let i = 0; i < users.length; i++) {
+        usersDiv.innerHTML += `
+        <div class="item">
+            <h4>${users[i].firstName}</h4>
+            <p>${users[i].age}</p>
+        </div>
+        `
+    }
+
+    // for (let i = 0; i < users.length; i++) {
+    //     console.log(`
+    //     <div class="item">
+    //          <h4>${users[i].firstName}</h4>
+    //          <p>${users[i].age}</p>
+    //      </div>
+    //     `)
+    // }
+
+</script>
+
+</html> -->
