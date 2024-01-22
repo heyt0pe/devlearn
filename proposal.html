@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Will you be my girlfriend</h1>
 
+    <center>
+        <img src="images/neutral.jpg" alt="">
+        <img src="images/yes.jpg" alt="">
+        <img src="images/no.jpg" alt="">
+    </center>
 
-    <img src="images/neutral.jpg" alt="">
-    <img src="images/yes.jpg" alt="">
-    <img src="images/no.jpg" alt="">
+    <br /><br />
 
     <center>
         <img id='reaction' src="images/neutral.jpg" alt="">
@@ -19,36 +24,50 @@
 
     <button onclick="yes()">yes</button>
     <button onclick="no()">no</button>
-    
-    
+
+
 </body>
 
-<style>
-
-img {
-    width: 250px;
-}
-
-
-</style>
 
 <script>
 
 
-const img = document.getElementById('reaction')
+    const neutralImage = document.querySelectorAll('img')[0]
+    const yesImage = document.querySelectorAll('img')[1]
+    const noImage = document.querySelectorAll('img')[2]
+
+    yesImage.style.display  = 'none';
+    noImage.style.display  = 'none';
+
+    const img = document.getElementById('reaction')
 
 
-function yes (){
-    img.src = 'images/yes.jpg';
-}
+    function yes() {
+        yesImage.style.display  = 'block';
+        neutralImage.style.display  = 'none';
+        noImage.style.display  = 'none';
 
-function no (){
-    img.src = 'images/no.jpg';
-}
+        img.src = 'images/yes.jpg';
+    
+    }
+
+    function no() {
+        yesImage.style.display  = 'none';
+        neutralImage.style.display  = 'none';
+        noImage.style.display  = 'block';
+
+        img.src = 'images/no.jpg';
+    }
 
 
 
 </script>
 
+
+<style>
+    img {
+        width: 200px;
+    }
+</style>
 
 </html>
