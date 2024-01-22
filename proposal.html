@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Will you be my girlfriend</h1>
+
+
+    <img src="images/neutral.jpg" alt="">
+    <img src="images/yes.jpg" alt="">
+    <img src="images/no.jpg" alt="">
+
+    <center>
+        <img id='reaction' src="images/neutral.jpg" alt="">
+    </center>
+
+    <button onclick="yes()">yes</button>
+    <button onclick="no()">no</button>
+    
+    
+</body>
+
+<style>
+
+img {
+    width: 250px;
+}
+
+
+</style>
+
+<script>
+
+
+const img = document.getElementById('reaction')
+
+
+function yes (){
+    img.src = 'images/yes.jpg';
+}
+
+function no (){
+    img.src = 'images/no.jpg';
+}
+
+
+
+</script>
+
+
+</html>

@@ -59,6 +59,17 @@
         }
     }
 
+    const colors = ['red', 'green', 'blue']
+
+    const body = document.querySelector('body')
+
+    let count = -1;
+
+    setInterval(function (){
+        count += 1;
+        // body.style.background = colors[count % 3];
+    }, 750);
+
 </script>
 
 <style>
