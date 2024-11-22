@@ -75,7 +75,7 @@
   ],
   "source_jekyll": null,
   "source_joomla": 1495,
-  "banner_caption": "{modal title=\"Refugee Novruz Allahverdiyev believes the president will fix the villages problems with the mine.\" href=\"images/stories/CCWatch/P1_Novruz_Allahverdiyev_PORTRAITS_ALYIEV.jpg\"}{/modal}  Refugee Novruz Allahverdiyev",
+  "banner_caption": " Refugee Novruz Allahverdiyev",
   "linked_articles": null,
   "content_advanced": [
     {
@@ -109,21 +109,28 @@
               "type": "italic"
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
-          "text": "Such faith may be misplaced.  What Allahverdiyev doesn’t know is that the -president and his family own a share of the {modal href=\"documents/P6_FACTORY_SITE.jpg\"}new mine{/modal}  threatening to swallow his town.  The UK company is actually a front for the first family who stand to add to their already enormous wealth, estimated to be in the billions of dollars, through the mining operation.",
+          "text": "Such faith may be misplaced.  What Allahverdiyev doesn’t know is that the -president and his family own a share of the ",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
+        {
+          "text": "new mine",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "documents/P6_FACTORY_SITE.jpg",
+                "target": "_blank"
+              }
+            }
+          ]
+        },
+        {
+          "text": "  threatening to swallow his town.  The UK company is actually a front for the first family who stand to add to their already enormous wealth, estimated to be in the billions of dollars, through the mining operation.",
+          "type": "text"
+        },
         {
           "text": "The New Mine",
           "type": "text",
@@ -132,12 +139,7 @@
               "type": "bold"
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "According to an ",
           "type": "text"
@@ -183,7 +185,24 @@
           ]
         },
         {
-          "text": " later this year.  Chovdar is one of {modal href=\"documents/P12_map_6fields.jpg\"}>six goldfields{/modal} the government awarded AIMROC and the first to start mining operations.",
+          "text": " later this year.  Chovdar is one of ",
+          "type": "text"
+        },
+        {
+          "text": ">six goldfields",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "documents/P12_map_6fields.jpg",
+                "target": "_blank"
+              }
+            }
+          ]
+        },
+        {
+          "text": " the government awarded AIMROC and the first to start mining operations.",
           "type": "text"
         },
         {
@@ -195,12 +214,7 @@
         {
           "text": "But while Chovdar locals blame the \"ingilis\", the Azerbaijani name for Englishmen, the truth about the cause of their troubles is quite different. AIMROC owns a 70 percent stake in the six mines and the Azerbaijani government the remaining 30 percent.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "{modal href=\"images/stories/CCWatch/P2_POVERTY_CHOVDAR1.jpg\"}",
           "type": "text"
@@ -221,12 +235,7 @@
               "type": "italic"
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "{/modal}AIMROC is a joint venture of four companies: Londex Resources S.A, Willy and Meyris S.A., Fargate Mining Corporation, and Globex İnternational LLP.  All are shell companies and it is not clear if any are backed by mining companies.  According to Azerbaijani officials, all were set up specifically for the deal. A fifth company, MINDECO, is the official project supervisor but has no ownership.  MINDECO (Mitsui Mineral Development Engineering Co Ltd) is a mining engineering company owned by Japanese giant Mitsui Mining and Smelting Co. according to its ",
           "type": "text"
@@ -247,21 +256,11 @@
         {
           "text": ".",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "Of the four owners, the only UK-based company is Globex International LLP which has an 11 percent stake in AIMROC, worth about US$200 million.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "Reporters for the Organized Crime and Corruption Reporting Project (OCCRP) found that Globex is actually owned by three Panama companies: ",
           "type": "text"
@@ -315,12 +314,7 @@
         {
           "text": ". And, according to Panamanian registration records these are all managed by the president’s two daughters, Leyla and Arzu Aliyeva, and by Olivier Mestelan, a Swiss businessman close to the ruling family.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "Mestelan, who has organized art events with the family, and the two daughters also appear on the records of other Panamanian companies being used as fronts for business in Azerbaijan. One is Azerfon, a mobile phone company that has a monopoly on high-speed phone service. (",
           "type": "text"
@@ -341,12 +335,7 @@
         {
           "text": " ) Mestelan refused to comment for this story.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "Digging Deeper",
           "type": "text",
@@ -355,12 +344,7 @@
               "type": "bold"
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "{modal href=\"images/stories/CCWatch/infographic_chovdar4.jpg\"}",
           "type": "text",
@@ -399,12 +383,7 @@
               "type": "bold"
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "AIMROC has been controversial from its beginnings.  The consortium was formed by a ",
           "type": "text"
@@ -475,12 +454,7 @@
         {
           "text": " issued in 2007.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "The contract for the six gold fields was quickly handed to AIMROC despite objections raised by a number of members of parliament in ",
           "type": "text"
@@ -501,39 +475,19 @@
         {
           "text": ".  MPs complained that the consortium’s ownership wasn’t transparent, the contract did not follow bidding procedure, none of the companies had any record of mining, and that the deal opposed national interest.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "At the hearings, Valeh Aleskerov, chair of the Natural Resources Committee of the Milli Mejlis (the Azerbaijani parliament), the body that proposed and approved the AIMROC contract, defended the deal.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "“These companies were created for a specific purpose. This is a worldwide practice,” said Aleskerov.  “These companies are registered either in the Cayman Islands, or Panama. …  Everyone knows offshore zones have good legislation.”",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "Aleskerov, who worked with President Aliyev when they were vice presidents of the state oil company, said candidates for the mining fields were lacking, but OCCRP could find no evidence that any tender was ever issued.  ",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "“There were negotiations with different companies {modal href=\"images/stories/CCWatch/P5_FACTORY_SITE.jpg\"}",
           "type": "text"
@@ -554,12 +508,7 @@
               "type": "italic"
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "{/modal}and only three of them got interested. The rest demanded exclusive rights and offered no guarantees. They said they will do exploration and will only start other work if they find it necessary. These other companies accepted our conditions. In addition to $2 million bonus, they will invest in exploration and this is going to take at least $110 million,” Aleskerov said at the ",
           "type": "text"
@@ -580,57 +529,27 @@
         {
           "text": ".",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "Aleskerov said in 2007 that gold mining was risky and the government had no idea about how much gold there was: “You can only have a tender if you are 100 percent certain that there is, for example, 100 tons of gold. Without this, it is risky to hold a tender.”",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "However in October 2011, Environment and Natural Resources Minister Huseyngulu Bagirov announced that recoverable reserves in just the Chovdar mineral fields are estimated at 44 tons of gold and 164 tons of silver.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "OCCRP asked the ministry’s chief geologist, Agamahmud Samedov, about estimates of reserves in the other fields, but was told that such data was secret. He refused to comment on the ownership of the consortium or its lack of experience mining.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "OCCRP contacted Aleskerov to find out about the owners of the offshore companies.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "“Do you think the Azerbaijani government would contract someone unknown, someone from the street?” Aleskerov said.  Asked whether the first family had a share of ownership, Aleskerov retorted, “Shame on you” and hung up.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "Londex Resources",
           "type": "text",
@@ -664,12 +583,7 @@
         {
           "text": "  are registered in Panama, according to documents obtained from the Panama Registry of Companies. The documents indicate that the companies are interrelated through a complicated chain of company directorships. All three are or were at one time owned by two companies registered at the same address in the tiny Caribbean island of Nevis: Casal Management and Tagiva Management.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "Casal and Tagiva act or acted as the director for at least 20 companies in the UK, the United States and Panama. It is likely that the companies are professional proxies used to hide actual ownership.",
           "type": "text"
@@ -697,12 +611,7 @@
         {
           "text": ". (listed in some documents as Will & Meyris S.A.) is represented by a Czech geologist, Mirko Vanecek, the executive editor at the Journal of Geosciences in Prague, but OCCRP could find no further information.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "Environmental Concerns",
           "type": "text",
@@ -711,12 +620,7 @@
               "type": "bold"
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "{modal href=\"images/stories/CCWatch/P21_LEFTOVERS_SOVIET_MINING.jpg\"}",
           "type": "text"
@@ -737,21 +641,11 @@
               "type": "italic"
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "{/modal}Azeri MPs also expressed concerns about environmental damage that could result from a mining plan that uses open pit cyanide leaching and about the plan to compensate villages at below-market prices for land taken in the deal. According to testimony, the contract only requires that the mining companies take “reasonable procedures” to protect the environment.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "“The potentially dangerous issue on this project I think is the environmental one. … What does ‘reasonable’ mean? Who would do deliberate damage? These clauses let the contractor avoid consequences if there are environmental problems. I think these should be strengthened,\" MP Ali Masimli said at the ",
           "type": "text"
@@ -772,48 +666,23 @@
         {
           "text": ". There is no evidence laws were strengthened.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "Masimli said  previous mining following Azerbaijani law had led to significant harm such as a mining operation near Filizchay that polluted streams and left the water smelling of rotten eggs.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "\"This doesn’t only affect flora and fauna but also has a negative impact on psychology of people. What will be done to avoid such a hazard? It is clear from the contract that the sanctions will be considered only if the hazard was deliberate,\" said Masimli.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "Villages in the area around the gold mine share that worry.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "“If the gold is produced, the water may be poisoned. The cattle may be poisoned. We were told even birds can be poisoned and die. I am worried,” said Shamistan Mikayilov, who lives in neighboring Gushchu village. Locals said they have learned of the environmental problems of mining from the media and from people who live in Gedabey, another district of Azerbaijan with active gold fields.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "The President",
           "type": "text",
@@ -822,12 +691,7 @@
               "type": "bold"
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "Meanwhile, villagers look forward to a visit from the president to the opening of an ore refinery the consortium has built.{modal href=\"images/stories/CCWatch/p29_daughters.jpg\"}",
           "type": "text"
@@ -848,57 +712,27 @@
               "type": "italic"
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "{/modal}“We have heard that president will come to the opening ceremony of this factory. Please tell our president to come and visit us. Tell him we support his policy. We will not be allowed to approach him.  Please, we ask him to come and ask about our living conditions. Then he’ll see how we live, how we suffer,\" said villager Panah Huseynov.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "The villagers of Chovdar didn’t know the president's two daughters were part owners of the mining company and most did not believe reporters who told them that.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "“How can the president benefit from this production?  …  All of the companies here are foreign. Englishmen are running the business here,” a local resident who refused to give his name told OCCRP Teacher Nureddin Ramazanov lost some land to AIMROC. With just a €100 per month salary, he says his family is starving.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "“The company destroyed our road. … Geologists took our land. They paid us only 2000 AZN (US$2500) per hectare. …. Now I don’t know how to survive. ”",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "President Aliyev did not answer questions about his family’s business interests in the gold fields. Presidential spokesman Azer Gasimov, did not return phone calls and did not answer the written questions OCCRP sent.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "Allahverdiyev, meanwhile, said he is hoping for a job at the mine. Locals say mining jobs pays the equivalent of US$12 a day, a small amount but still something for people that don't have any other alternative. ",
           "type": "text"
@@ -909,12 +743,7 @@
         {
           "text": "So far, the mining site has hired very few people.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "“Those who work there say they have non-stop shifts without even a break to smoke a cigarette. They get only 10 manats ($12) for working from early morning to late at night,\" says Yaqub Ramazanov, of Chovdar. ",
           "type": "text"
@@ -925,21 +754,11 @@
         {
           "text": "Despite the poverty and setbacks, even the most desperate still have faith in President Aliyev whose omnipresent portrait watches over the people of Chovdar in their shops and schools.",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "“The president knows nothing about it,” said the teacher Ramazanov. Local officials say the president ordered that the land be taken, but I don’t believe it. He is a good person.”",
           "type": "text"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "Project coordinator:  Paul Cristian Radu",
           "type": "text",
@@ -948,12 +767,7 @@
               "type": "bold"
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "In cooperation with Radio Free Europe/Radio Liberty",
           "type": "text",
@@ -979,12 +793,7 @@
               "type": "bold"
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "Interview with Valeh Aleskerov, the chair the Natural Resources Committee of Milli Mejlis (the Azerbaijani parliament)",
           "type": "text",
@@ -993,12 +802,7 @@
               "type": "bold"
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "content": [
+        },
         {
           "text": "Reporter:  In 2007 you presented contract for exploration in 6 gold fields for ratification in parliament",
           "type": "text"
@@ -1100,7 +904,15 @@
       "type": "paragraph"
     },
     {
+      "type": "paragraph",
+      "content": []
+    },
+    {
       "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": []
     }
   ],
   "structured_authors": []
