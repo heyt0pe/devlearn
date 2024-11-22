@@ -51,12 +51,12 @@
   "updated_at": 1722959533,
   "updated_by": "",
   "banner_type": "image",
-  "description": "{modal href=\"images/stories/CCWatch/bingo.jpg\"} {/modal}Games of Chance  by OCCRPA convicted Romanian businessman, who twice started a TV game show only to have it go bankrupt before paying out prizes, is teaming with family members of a high-ranking Moldovan general to start a similar program in Moldova, The Organized Crime and Corruption Reporting Project (OCCRP) and Rise Project have learned.",
+  "description": " Games of Chance by OCCRPA convicted Romanian businessman, who twice started a TV game show only to have it go bankrupt before paying out prizes, is teaming with family members of a high-ranking Moldovan general to start a similar program in Moldova, The Organized Crime and Corruption Reporting Project (OCCRP) and Rise Project have learned.",
   "banner_credit": null,
   "organizations": [],
   "source_jekyll": null,
   "source_joomla": 1559,
-  "banner_caption": null,
+  "banner_caption": "",
   "linked_articles": null,
   "content_advanced": [
     {
@@ -751,6 +751,10 @@
     },
     {
       "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": []
     }
   ],
   "structured_authors": []
