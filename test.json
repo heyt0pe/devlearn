@@ -75,7 +75,7 @@
   ],
   "source_jekyll": null,
   "source_joomla": 1495,
-  "banner_caption": "{modal title=\"Refugee Novruz Allahverdiyev believes the president will fix the villages problems with the mine.\" href=\"images/stories/CCWatch/P1_Novruz_Allahverdiyev_PORTRAITS_ALYIEV.jpg\"}{/modal}  Refugee Novruz Allahverdiyev",
+  "banner_caption": " Refugee Novruz Allahverdiyev",
   "linked_articles": null,
   "content_advanced": [
     {
@@ -116,7 +116,24 @@
       "type": "paragraph",
       "content": [
         {
-          "text": "Such faith may be misplaced.  What Allahverdiyev doesn’t know is that the -president and his family own a share of the {modal href=\"documents/P6_FACTORY_SITE.jpg\"}new mine{/modal}  threatening to swallow his town.  The UK company is actually a front for the first family who stand to add to their already enormous wealth, estimated to be in the billions of dollars, through the mining operation.",
+          "text": "Such faith may be misplaced.  What Allahverdiyev doesn’t know is that the -president and his family own a share of the ",
+          "type": "text"
+        },
+        {
+          "text": "new mine",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "documents/P6_FACTORY_SITE.jpg",
+                "target": "_blank"
+              }
+            }
+          ]
+        },
+        {
+          "text": "  threatening to swallow his town.  The UK company is actually a front for the first family who stand to add to their already enormous wealth, estimated to be in the billions of dollars, through the mining operation.",
           "type": "text"
         }
       ]
@@ -183,7 +200,24 @@
           ]
         },
         {
-          "text": " later this year.  Chovdar is one of {modal href=\"documents/P12_map_6fields.jpg\"}>six goldfields{/modal} the government awarded AIMROC and the first to start mining operations.",
+          "text": " later this year.  Chovdar is one of ",
+          "type": "text"
+        },
+        {
+          "text": ">six goldfields",
+          "type": "text",
+          "marks": [
+            {
+              "type": "link",
+              "attrs": {
+                "href": "documents/P12_map_6fields.jpg",
+                "target": "_blank"
+              }
+            }
+          ]
+        },
+        {
+          "text": " the government awarded AIMROC and the first to start mining operations.",
           "type": "text"
         },
         {
@@ -1100,7 +1134,15 @@
       "type": "paragraph"
     },
     {
+      "type": "paragraph",
+      "content": []
+    },
+    {
       "type": "paragraph"
+    },
+    {
+      "type": "paragraph",
+      "content": []
     }
   ],
   "structured_authors": []
